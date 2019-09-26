@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+/* Background Image*/
+html {
+    /* Text in white, back-up background color as black if img doesn't load correctly, Image will cover,center and no repeating */
+    height: 100%;
+    margin: 0;
+    background-image: url("../img/bg.jpg");
+    background-color: black;
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Gaegu', cursive;
+    font-family: 'Mali', cursive;
+    font-family: 'Tillana', cursive;
+    /* Font Short hand - font style , font-weight , fontsize/line-hegith */
+    font: normal 400 18px/1.5 Gaegu, Mali, Tillana;
+}
+
+h1 {
+    color: red;
+}
+
+h2 {
+    color: blue;
+}
+
+p {
+    color: black;
+}
+
+label {
+    color: purple;
+}
+
+/* Container */
+div.container {
+    text-align: center;
+    width: 1250px;
+    margin: auto;
+    border-radius: 1px;
+    padding: 20px;
+    background-color: greenyellow;
+    font-family: 'PT Serif', serif;
+}
+
+footer.container {
+    text-align: center;
+    width: 1250px;
+    margin: auto;
+    border-radius: 1px;
+    padding: 20px;
+    background-color: grey;
+    font-family: 'PT Serif', serif;
+}
+
+
